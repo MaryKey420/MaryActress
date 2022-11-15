@@ -159,12 +159,12 @@ body {
     margin-top: 2em;
   }
   .ava {
-    height: 130px !important;
-    margin-right: 1.5em;
+    height: 250px !important;
+    margin-right: 3em;
   }
 
   .flex {
-    margin-left: 0.1em;
+    margin-left: 2em;
     margin-bottom: 2em;
   }
 
@@ -173,11 +173,11 @@ body {
   }
 
   #header {
-    font-size: 0.4em;
+    font-size: 0.8em;
   }
 
   li {
-    font-size: 0.22em;
+    font-size: 0.4em;
     margin-left: -4em;
   }
 
@@ -186,20 +186,20 @@ body {
   }
 
   .work {
-    font-size: 0.4em;
-    margin-left: 4.2em;
+    font-size: 0.8em;
+    margin-left: 2.6em;
   }
 
   .experience {
-    margin-left: 0.1em;
-    width: 150px;
+    max-width: 150px;
+    margin-left: 21em;
     font-size: 0.25em;
-    padding: 0.8em 1.8em;
+    padding: 1.2em 1em;
   }
 
   .port {
-    margin-left: 0em;
-    font-size: 0.5em;
+    margin-left: 0.6em;
+    font-size: 1em;
   }
 
   .portfolio .big {
@@ -213,10 +213,10 @@ body {
   }
 
   .portfolio {
-    margin-left: -0.35em;
-    width: 200px;
+    margin-left: 0em;
+    width: 400px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-auto-rows: 1fr;
     grid-gap: 2px;
     grid-auto-flow: dense;
@@ -227,11 +227,11 @@ body {
   }
 
   .box {
-    max-width: 200px;
+    max-width: 400px;
     font-size: 0.3em;
     padding: 0;
     margin: 0;
-    margin-left: -1.3em;
+    margin-left: 0em;
     margin-bottom: -3em;
     height: 3em;
     line-height: 14px;
