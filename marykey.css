@@ -151,10 +151,21 @@ body {
   transition-duration: 1s;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
+  #header {
+    margin-left: -2.1em;
+  }
+  body {
+    margin-top: 2em;
+  }
+  .ava {
+    height: 130px !important;
+    margin-right: 1.5em;
+  }
+
   .flex {
-    margin-left: 4em;
-    width: 100%;
+    margin-left: 0.1em;
+    margin-bottom: 2em;
   }
 
   #info {
@@ -162,29 +173,75 @@ body {
   }
 
   #header {
-    font-size: 1.5em;
+    font-size: 0.4em;
   }
 
   li {
-    font-size: 1em;
-    min-width: 350px;
+    font-size: 0.22em;
+    margin-left: -4em;
   }
 
   #moreinfo {
     margin-left: 3em;
   }
 
+  .work {
+    font-size: 0.4em;
+    margin-left: 4.2em;
+  }
+
   .experience {
-    margin-left: 6em;
+    margin-left: 0.1em;
     width: 150px;
-    font-size: 1em;
+    font-size: 0.25em;
+    padding: 0.8em 1.8em;
   }
 
   .port {
-    margin-left: 1.5em;
+    margin-left: 0em;
+    font-size: 0.5em;
+  }
+
+  .portfolio .big {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .portfolio .bigger {
+    grid-row: span 3;
+    grid-column: span 3;
   }
 
   .portfolio {
-    margin-right: 0;
+    margin-left: -0.35em;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 2px;
+    grid-auto-flow: dense;
+  }
+
+  .portfolio figcaption {
+    font-size: 0.2em;
+  }
+
+  .box {
+    max-width: 200px;
+    font-size: 0.3em;
+    padding: 0;
+    margin: 0;
+    margin-left: -1.3em;
+    margin-bottom: -3em;
+    height: 3em;
+    line-height: 14px;
+    border-radius: 2px;
+    margin-top: 0.5em;
+  }
+
+  #moreinfo {
+    font-size: 20px;
+    margin-left: -1.7em;
+    margin-bottom: 1em;
   }
 }
